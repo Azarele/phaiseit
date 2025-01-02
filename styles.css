@@ -1,0 +1,122 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #001f3f; /* Navy background */
+    color: #ffffff; /* White text */
+  }
+  
+  /* Add a navy border around the screen */
+  .site-container {
+    max-width: 1200px;
+    margin: 20px auto; /* Center the site on the screen */
+    border: 10px solid #ffffff; /* White border */
+    border-radius: 15px; /* Rounded corners for the border */
+    overflow: hidden; /* Ensure content stays within the border */
+  }
+  
+  /* Hero Section */
+  header.hero {
+    text-align: center;
+    padding: 50px;
+    background: #ffffff; /* White background */
+    color: #001f3f; /* Navy text */
+  }
+  
+  header.hero .logo {
+    width: 250px; /* Larger size for the GIF */
+    margin-bottom: 20px;
+  }
+  
+  header.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  header.hero p {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+  }
+  
+  header.hero .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #001f3f; /* Navy background for button */
+    color: #ffffff; /* White text */
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  header.hero .cta-button:hover {
+    background: #0056b3; /* Slightly lighter navy on hover */
+  }
+  
+  /* Features Section */
+  section.features {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .features .feature-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .features .feature {
+    max-width: 250px;
+  }
+  
+  .features .feature-icon {
+    width: 80px; /* Slightly larger icons */
+    margin-bottom: 10px;
+  }
+  
+  section.how-it-works {
+    padding: 40px;
+    background: #f4f4f4; /* Light gray background for contrast */
+    text-align: center;
+    color: #001f3f; /* Navy text */
+  }
+  
+  .how-it-works ol {
+    list-style: decimal inside;
+    margin-bottom: 20px;
+  }
+  
+  .demo-video {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #001f3f; /* Navy border for the video */
+    border-radius: 5px;
+  }
+  
+  section#download {
+    padding: 40px;
+    text-align: center;
+    background: #ffffff; /* White background */
+    color: #001f3f; /* Navy text */
+  }
+  
+  .download-buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background: #001f3f; /* Navy buttons */
+    color: #ffffff; /* White text */
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .download-buttons a:hover {
+    background: #0056b3; /* Slightly lighter navy on hover */
+  }
+  
+  footer {
+    padding: 20px;
+    text-align: center;
+    background: #001f3f; /* Navy background */
+    color: #ffffff; /* White text */
+  }
+  
