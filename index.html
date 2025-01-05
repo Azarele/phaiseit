@@ -64,11 +64,69 @@
       </div>
     </section>
 
+    <!-- Privacy Policy Button -->
+    <section id="privacy-policy-section" style="text-align: center; margin-bottom: 20px;">
+      <button id="privacy-policy-button" class="cta-button" aria-label="View Privacy Policy">View Privacy Policy</button>
+    </section>
+
+    <!-- Privacy Policy Modal -->
+    <div id="privacy-policy-modal" class="modal" style="display: none;">
+      <div class="modal-content">
+        <span id="close-modal" class="close-button">&times;</span>
+        <h2>Privacy Policy</h2>
+        <p>
+          Your privacy is important to us. phraise it collects and stores only the personal information you provide within the extension for its intended purpose, such as improving text and autofilling forms. This data includes:
+        </p>
+        <ul>
+          <li>Name</li>
+          <li>Email Address</li>
+          <li>Phone Number</li>
+          <li>Address</li>
+        </ul>
+        <p>
+          This information is stored locally on your device and is not transmitted to our servers or shared with third parties. You can delete or update your information at any time by accessing the "Details Form" section in the extension.
+        </p>
+        <p>
+          We use the OpenAI API to process and improve your text. The text you enter in the extension is sent securely to the API and is not stored by us. For more details, please refer to <a href="https://openai.com/privacy/" target="_blank" rel="noopener noreferrer">OpenAI's Privacy Policy</a>.
+        </p>
+        <p>
+          By using the phraise it extension, you agree to this privacy policy. If you have any questions or concerns, please contact us at <a href="mailto:help@phraiseit.com">help@phraiseit.com</a>.
+        </p>
+      </div>
+    </div>
+
     <!-- Footer -->
     <footer>
       <p>&copy; 2024 phraise it. All rights reserved.</p>
       <p>Contact us at <a href="mailto:help@phraiseit.com">help@phraiseit.com</a></p>
     </footer>
   </div>
+
+  <!-- JavaScript -->
+  <script>
+    // Privacy Policy Modal Functionality
+    document.addEventListener("DOMContentLoaded", () => {
+      const privacyButton = document.getElementById("privacy-policy-button");
+      const modal = document.getElementById("privacy-policy-modal");
+      const closeModal = document.getElementById("close-modal");
+
+      // Open Modal
+      privacyButton.addEventListener("click", () => {
+        modal.style.display = "flex";
+      });
+
+      // Close Modal
+      closeModal.addEventListener("click", () => {
+        modal.style.display = "none";
+      });
+
+      // Close Modal on Outside Click
+      window.addEventListener("click", (event) => {
+        if (event.target === modal) {
+          modal.style.display = "none";
+        }
+      });
+    });
+  </script>
 </body>
 </html>
