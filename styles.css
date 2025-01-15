@@ -39,20 +39,27 @@ header.hero p {
   font-size: 1.2em;
 }
 
-header.hero .cta-button {
+/* Consistent Button Styles */
+button,
+a.cta-button,
+.download-buttons a {
   display: inline-block;
   padding: 10px 20px;
-  background: #001f3f; /* Navy background for button */
+  margin: 10px;
+  background: #001f3f; /* Navy background */
   color: #ffffff; /* White text */
   text-decoration: none;
   border-radius: 5px;
-  font-size: 14px; /* Match button size */
-  font-weight: bold; /* Consistent text style */
+  font-size: 16px; /* Matching font size */
+  font-weight: bold; /* Consistent text weight */
   border: 2px solid #001f3f; /* Matching border */
   transition: background 0.3s, border-color 0.3s; /* Smooth hover effect */
+  text-align: center; /* Center text inside button */
 }
 
-header.hero .cta-button:hover {
+button:hover,
+a.cta-button:hover,
+.download-buttons a:hover {
   background: #0056b3; /* Slightly lighter navy on hover */
   border-color: #0056b3;
 }
@@ -107,25 +114,6 @@ section#download {
   text-align: center;
   background: #ffffff; /* White background */
   color: #001f3f; /* Navy text */
-}
-
-.download-buttons a {
-  display: inline-block;
-  padding: 10px 20px;
-  margin: 10px;
-  background: #001f3f; /* Navy buttons */
-  color: #ffffff; /* White text */
-  text-decoration: none;
-  border-radius: 5px;
-  font-size: 14px; /* Match button size */
-  font-weight: bold; /* Consistent text style */
-  border: 2px solid #001f3f; /* Matching border */
-  transition: background 0.3s, border-color 0.3s; /* Smooth hover effect */
-}
-
-.download-buttons a:hover {
-  background: #0056b3; /* Slightly lighter navy on hover */
-  border-color: #0056b3;
 }
 
 /* Footer */
