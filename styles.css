@@ -46,10 +46,15 @@ header.hero .cta-button {
   color: #ffffff; /* White text */
   text-decoration: none;
   border-radius: 5px;
+  font-size: 14px; /* Match button size */
+  font-weight: bold; /* Consistent text style */
+  border: 2px solid #001f3f; /* Matching border */
+  transition: background 0.3s, border-color 0.3s; /* Smooth hover effect */
 }
 
 header.hero .cta-button:hover {
   background: #0056b3; /* Slightly lighter navy on hover */
+  border-color: #0056b3;
 }
 
 /* Features Section */
@@ -112,10 +117,15 @@ section#download {
   color: #ffffff; /* White text */
   text-decoration: none;
   border-radius: 5px;
+  font-size: 14px; /* Match button size */
+  font-weight: bold; /* Consistent text style */
+  border: 2px solid #001f3f; /* Matching border */
+  transition: background 0.3s, border-color 0.3s; /* Smooth hover effect */
 }
 
 .download-buttons a:hover {
   background: #0056b3; /* Slightly lighter navy on hover */
+  border-color: #0056b3;
 }
 
 /* Footer */
